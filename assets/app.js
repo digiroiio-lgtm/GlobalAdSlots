@@ -39,11 +39,15 @@ function initPlanner() {
       <p><strong>Budget Allocation:</strong> 45% Airports / 35% Billboards / 20% Digital Screens in ${country}</p>
       <p><strong>Goal Alignment:</strong> Balanced brand lift + measurable performance.</p>
       <div class="cta-group">
-        <button class="btn btn-primary" type="button" onclick="window.print()">PDF Export</button>
+        <button class="btn btn-primary" type="button" id="pdf-export-btn">PDF Export</button>
         <button class="btn" type="button">Save Plan</button>
         <button class="btn" type="button">Share Plan</button>
       </div>
     `;
+    const pdfButton = output.querySelector('#pdf-export-btn');
+    if (pdfButton) {
+      pdfButton.addEventListener('click', () => window.print());
+    }
   });
 }
 

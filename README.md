@@ -7,7 +7,7 @@ Static prototype for **GLOBAL ADSLOTS**:
 ## Run locally
 
 ```bash
-cd /tmp/workspace/digiroiio-lgtm/GlobalAdSlots
+cd GlobalAdSlots
 python3 -m http.server 8000
 ```
 
