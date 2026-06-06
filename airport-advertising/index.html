@@ -1,1 +1,381 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Airport Advertising | Global AdSlots</title><link rel="stylesheet" href="/assets/styles.css"></head><body><header><div class="container nav"><a class="brand" href="/">GLOBAL ADSLOTS</a><nav class="nav-links"><a href="/deals/">Deals</a><a href="/ai-media-planner/">AI Planner</a></nav></div></header><main class="container"><h1>Airport Advertising Marketplace</h1><p class="small-muted">Search and book airport inventory globally.</p><section class="search-grid"><select><option>Country</option><option>UAE</option><option>UK</option><option>Turkey</option></select><input class="input" placeholder="City"><input class="input" placeholder="Airport"><input class="input" placeholder="Terminal"><input class="input" placeholder="Budget"><input class="input" type="date"></section><section class="section card-grid"><article class="card"><h3>Istanbul Airport</h3><p>Monthly Passengers: 76M</p><p>Available Screens: 124</p><p>CPM: $6.20</p><p>Available Dates: Jun 12-30</p><a class="btn btn-primary" href="/airport-advertising/istanbul-airport/">Book Now</a></article><article class="card"><h3>Dubai International</h3><p>Monthly Passengers: 92M</p><p>Available Screens: 140</p><p>CPM: $6.80</p><p>Available Dates: Jun 20-Jul 10</p><a class="btn btn-primary" href="/airport-advertising/dubai/">Book Now</a></article><article class="card"><h3>Heathrow Airport</h3><p>Monthly Passengers: 79M</p><p>Available Screens: 97</p><p>CPM: $7.10</p><p>Available Dates: Jun 15-Jul 02</p><a class="btn btn-primary" href="/airport-advertising/london/">Book Now</a></article></section></main><script src="/assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Airport Advertising — Book Airport Ad Spaces | Global AdSlots</title>
+<meta name="description" content="Reach millions of travelers at top airports worldwide. Search 1,200+ airports, compare inventory and book premium advertising spaces.">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo"><span class="gl">GLOBAL</span><span class="ad">ADSLOTS</span></a>
+    <nav class="main-nav">
+      <a href="/" class="nav-item">Find Advertising <span class="chevron">▾</span></a>
+      <a href="/airport-advertising/" class="nav-item active">Airports</a>
+      <a href="/billboard-advertising/" class="nav-item">Billboards</a>
+      <a href="#" class="nav-item">Digital Screens</a>
+      <a href="#" class="nav-item">Transit</a>
+      <a href="#" class="nav-item">Mall Advertising</a>
+      <a href="/deals/" class="nav-item">Deals</a>
+      <a href="/ai-media-planner/" class="nav-item">AI Media Planner <span class="badge-new">NEW</span></a>
+      <a href="/for-media-owners/" class="nav-item">For Media Owners</a>
+    </nav>
+    <div class="header-actions">
+      <button class="btn-lang">🌐 EN ▾</button>
+      <a href="#" class="btn-signin">Sign In</a>
+      <a href="#" class="btn-signup">Sign Up</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="page-hero" style="padding:2.5rem 0 3.5rem">
+  <div class="container">
+    <div style="display:flex;align-items:center;gap:.4rem;font-size:.8rem;color:rgba(255,255,255,.6);margin-bottom:.85rem">
+      <a href="/" style="color:rgba(255,255,255,.6)">Home</a><span>›</span><span style="color:rgba(255,255,255,.85)">Airports</span>
+    </div>
+    <div class="hero-inner">
+      <h1>Airport Advertising</h1>
+      <p>Reach millions of travelers at top airports around the world.<br>Book premium advertising spaces in the world's busiest airports with ease.</p>
+    </div>
+  </div>
+  <div style="position:absolute;right:0;top:0;bottom:0;width:45%;background:linear-gradient(to left,rgba(6,26,64,0) 0%,var(--navy) 85%),url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&q=80') center/cover no-repeat;opacity:.45"></div>
+</section>
+
+<!-- SEARCH BOX -->
+<div class="container" style="position:relative;z-index:5;margin-top:-26px">
+  <div class="hero-search-box">
+    <div class="hero-search-row cols-5">
+      <div class="field-wrap">
+        <label>Location</label>
+        <div class="f-input-icon">
+          <span class="icon">🔍</span>
+          <input class="f-input" type="text" placeholder="Country, City or Airport">
+        </div>
+      </div>
+      <div class="field-wrap">
+        <label>Terminal</label>
+        <select><option>All Terminals</option><option>Terminal 1</option><option>Terminal 2</option><option>Terminal 3</option></select>
+      </div>
+      <div class="field-wrap">
+        <label>Ad Type</label>
+        <select><option>All Types</option><option>Digital Screens</option><option>Static Billboards</option><option>LED Walls</option><option>Lightboxes</option></select>
+      </div>
+      <div class="field-wrap">
+        <label>Dates</label>
+        <div class="f-input-icon">
+          <span class="icon">📅</span>
+          <input class="f-input" type="text" placeholder="Select Dates">
+        </div>
+      </div>
+      <div class="field-wrap">
+        <label>Budget (USD)</label>
+        <input class="f-input" type="text" placeholder="Min – Max">
+      </div>
+      <div>
+        <button class="search-hero-btn" style="height:38px">Search Airports</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- STATS BAR -->
+<div class="stats-bar" style="margin-top:1.5rem">
+  <div class="container">
+    <div class="stat-item"><span class="stat-icon">✈</span><div><strong>1,200+</strong><span class="text-sm text-muted">Airports Worldwide</span></div></div>
+    <div class="stat-item"><span class="stat-icon">👤</span><div><strong>350M+</strong><span class="text-sm text-muted">Monthly Travelers</span></div></div>
+    <div class="stat-item"><span class="stat-icon">📍</span><div><strong>Premium Locations</strong><span class="text-sm text-muted">High visibility across terminals</span></div></div>
+    <div class="stat-item"><span class="stat-icon">✅</span><div><strong>Verified Inventory</strong><span class="text-sm text-muted">100% quality checked</span></div></div>
+    <div class="stat-item"><span class="stat-icon">💰</span><div><strong>Best Rates</strong><span class="text-sm text-muted">Competitive pricing</span></div></div>
+  </div>
+</div>
+
+<!-- MAIN BODY -->
+<main class="page-body">
+  <div class="container">
+    <div class="layout-sidebar-main">
+
+      <!-- FILTER SIDEBAR -->
+      <aside class="filter-sidebar">
+        <div class="filter-header">
+          <h3>Filter Airports</h3>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Region</div>
+          <select class="filter-select"><option>All Regions</option><option>Europe</option><option>Middle East</option><option>Americas</option><option>Asia Pacific</option></select>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Country</div>
+          <select class="filter-select"><option>All Countries</option><option>UAE</option><option>USA</option><option>UK</option><option>Japan</option><option>Turkey</option></select>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Passenger Traffic</div>
+          <label class="checkbox-row"><input type="checkbox"><label>10M+ passengers</label><span class="count">120</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>5M – 10M passengers</label><span class="count">248</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>1M – 5M passengers</label><span class="count">356</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Under 1M passengers</label><span class="count">98</span></label>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Ad Types</div>
+          <label class="checkbox-row"><input type="checkbox"><label>Digital Screens</label><span class="count">824</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Static Billboards</label><span class="count">312</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>LED Walls</label><span class="count">245</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Lightboxes</label><span class="count">189</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Banners</label><span class="count">143</span></label>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Amenities</div>
+          <label class="checkbox-row"><input type="checkbox"><label>Duty Free Areas</label><span class="count">482</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Baggage Claim</label><span class="count">364</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Security Areas</label><span class="count">291</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Food Courts</label><span class="count">275</span></label>
+        </div>
+
+        <button class="filter-apply" style="background:#fff;color:var(--navy);border:1.5px solid var(--border);display:flex;align-items:center;justify-content:center;gap:.4rem">
+          ↺ Clear Filters
+        </button>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <div>
+        <div class="result-header">
+          <span class="result-count">1,200+ Airports Found</span>
+          <div class="result-controls">
+            <label>Sort by:</label>
+            <select class="sort-select"><option>Monthly Passengers</option><option>Available Spaces</option><option>CPM</option></select>
+            <span style="font-size:.83rem;color:var(--muted)">View as:</span>
+            <div class="view-btns">
+              <button class="active">⊞</button>
+              <button>☰</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Airport card: Dubai -->
+        <div class="apt-card">
+          <div class="ac-img">
+            <div style="width:180px;height:140px;background:linear-gradient(135deg,#1e3a5f,#0a4a7c);display:flex;align-items:center;justify-content:center;font-size:3rem;color:rgba(255,255,255,.25)">✈</div>
+            <span class="top-badge ta-top" style="background:#b45309">TOP AIRPORT</span>
+          </div>
+          <div class="ac-body">
+            <div class="ac-main">
+              <h3>Dubai International Airport</h3>
+              <div class="code-loc">DXB · Dubai, UAE</div>
+              <div class="meta-items">
+                <div class="meta-item"><span class="meta-icon">🖥</span> Terminal 1, 2, 3</div>
+                <div class="meta-item"><span class="meta-icon">👤</span> 80M+ Passengers/Year</div>
+                <div class="meta-item"><span class="meta-icon">✈</span> International Hub</div>
+              </div>
+            </div>
+            <div class="ac-metrics">
+              <div class="metric-block"><div class="metric-label">Available Spaces</div><div class="metric-val">142</div></div>
+              <div class="metric-block"><div class="metric-label">Est. Monthly Impressions</div><div class="metric-val">18.5M</div></div>
+              <div class="metric-block"><div class="metric-label">Avg. CPM</div><div class="metric-val">$4.25</div></div>
+              <div style="grid-column:1/-1">
+                <div class="metric-label" style="margin-bottom:.3rem">Popular Ad Types</div>
+                <div class="ad-types-row">
+                  <div class="ad-type-icon" title="Digital Screens">🖥</div>
+                  <div class="ad-type-icon" title="LED Walls">💡</div>
+                  <div class="ad-type-icon" title="Lightboxes">🔲</div>
+                  <div class="ad-type-icon" title="Banners">🏳</div>
+                </div>
+                <button class="view-inv-btn">View Inventory</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Airport card: Atlanta -->
+        <div class="apt-card">
+          <div class="ac-img">
+            <div style="width:180px;height:140px;background:linear-gradient(135deg,#1e3a5f,#2d6a9f);display:flex;align-items:center;justify-content:center;font-size:3rem;color:rgba(255,255,255,.25)">✈</div>
+            <span class="top-badge ta-high-traffic" style="background:#166534">HIGH TRAFFIC</span>
+          </div>
+          <div class="ac-body">
+            <div class="ac-main">
+              <h3>Hartsfield-Jackson Atlanta Intl.</h3>
+              <div class="code-loc">ATL · Atlanta, USA</div>
+              <div class="meta-items">
+                <div class="meta-item"><span class="meta-icon">🖥</span> Domestic &amp; International</div>
+                <div class="meta-item"><span class="meta-icon">👤</span> 107M+ Passengers/Year</div>
+                <div class="meta-item"><span class="meta-icon">✈</span> 4 Terminals</div>
+              </div>
+            </div>
+            <div class="ac-metrics">
+              <div class="metric-block"><div class="metric-label">Available Spaces</div><div class="metric-val">96</div></div>
+              <div class="metric-block"><div class="metric-label">Est. Monthly Impressions</div><div class="metric-val">22.3M</div></div>
+              <div class="metric-block"><div class="metric-label">Avg. CPM</div><div class="metric-val">$3.80</div></div>
+              <div style="grid-column:1/-1">
+                <div class="metric-label" style="margin-bottom:.3rem">Popular Ad Types</div>
+                <div class="ad-types-row">
+                  <div class="ad-type-icon">🖥</div><div class="ad-type-icon">💡</div><div class="ad-type-icon">🔲</div><div class="ad-type-icon">🏳</div>
+                </div>
+                <button class="view-inv-btn">View Inventory</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Airport card: Heathrow -->
+        <div class="apt-card">
+          <div class="ac-img">
+            <div style="width:180px;height:140px;background:linear-gradient(135deg,#374151,#6b7280);display:flex;align-items:center;justify-content:center;font-size:3rem;color:rgba(255,255,255,.25)">✈</div>
+          </div>
+          <div class="ac-body">
+            <div class="ac-main">
+              <h3>London Heathrow Airport</h3>
+              <div class="code-loc">LHR · London, UK</div>
+              <div class="meta-items">
+                <div class="meta-item"><span class="meta-icon">🖥</span> Terminal 2, 3, 4, 5</div>
+                <div class="meta-item"><span class="meta-icon">👤</span> 83M+ Passengers/Year</div>
+                <div class="meta-item"><span class="meta-icon">✈</span> International Hub</div>
+              </div>
+            </div>
+            <div class="ac-metrics">
+              <div class="metric-block"><div class="metric-label">Available Spaces</div><div class="metric-val">128</div></div>
+              <div class="metric-block"><div class="metric-label">Est. Monthly Impressions</div><div class="metric-val">16.2M</div></div>
+              <div class="metric-block"><div class="metric-label">Avg. CPM</div><div class="metric-val">$5.10</div></div>
+              <div style="grid-column:1/-1">
+                <div class="metric-label" style="margin-bottom:.3rem">Popular Ad Types</div>
+                <div class="ad-types-row">
+                  <div class="ad-type-icon">🖥</div><div class="ad-type-icon">💡</div><div class="ad-type-icon">🔲</div><div class="ad-type-icon">🏳</div>
+                </div>
+                <button class="view-inv-btn">View Inventory</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Airport card: Tokyo -->
+        <div class="apt-card">
+          <div class="ac-img">
+            <div style="width:180px;height:140px;background:linear-gradient(135deg,#1e3a5f,#3b82f6);display:flex;align-items:center;justify-content:center;font-size:3rem;color:rgba(255,255,255,.25)">✈</div>
+          </div>
+          <div class="ac-body">
+            <div class="ac-main">
+              <h3>Tokyo Haneda Airport</h3>
+              <div class="code-loc">HND · Tokyo, Japan</div>
+              <div class="meta-items">
+                <div class="meta-item"><span class="meta-icon">🖥</span> Terminal 1, 2, 3</div>
+                <div class="meta-item"><span class="meta-icon">👤</span> 87M+ Passengers/Year</div>
+                <div class="meta-item"><span class="meta-icon">✈</span> International Hub</div>
+              </div>
+            </div>
+            <div class="ac-metrics">
+              <div class="metric-block"><div class="metric-label">Available Spaces</div><div class="metric-val">74</div></div>
+              <div class="metric-block"><div class="metric-label">Est. Monthly Impressions</div><div class="metric-val">14.8M</div></div>
+              <div class="metric-block"><div class="metric-label">Avg. CPM</div><div class="metric-val">$4.00</div></div>
+              <div style="grid-column:1/-1">
+                <div class="metric-label" style="margin-bottom:.3rem">Popular Ad Types</div>
+                <div class="ad-types-row">
+                  <div class="ad-type-icon">🖥</div><div class="ad-type-icon">💡</div><div class="ad-type-icon">🔲</div><div class="ad-type-icon">🏳</div>
+                </div>
+                <button class="view-inv-btn">View Inventory</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popular Airports by Region -->
+    <div style="margin-top:2.5rem">
+      <div class="section-header">
+        <h2>Popular Airports by Region</h2>
+        <a href="#" class="section-header .view-all" style="font-size:.83rem;color:var(--accent);font-weight:600;display:flex;align-items:center;gap:.25rem">View all airports →</a>
+      </div>
+      <div class="city-grid" style="grid-template-columns:repeat(5,1fr)">
+        <div class="city-card">
+          <div style="width:100%;height:100px;background:linear-gradient(135deg,#065f46,#059669);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:rgba(255,255,255,.35)">✈</div>
+          <div class="city-overlay"></div>
+          <div class="city-info">
+            <span class="city-name">Singapore Changi</span>
+            <span class="city-sub">SIN · Singapore</span>
+            <span class="city-count">👤 67M+ Passengers/Year</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div style="width:100%;height:100px;background:linear-gradient(135deg,#1e3a8a,#3b82f6);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:rgba(255,255,255,.35)">✈</div>
+          <div class="city-overlay"></div>
+          <div class="city-info">
+            <span class="city-name">Paris Charles de Gaulle</span>
+            <span class="city-sub">CDG · Paris, France</span>
+            <span class="city-count">👤 70M+ Passengers/Year</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div style="width:100%;height:100px;background:linear-gradient(135deg,#4338ca,#7c3aed);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:rgba(255,255,255,.35)">✈</div>
+          <div class="city-overlay"></div>
+          <div class="city-info">
+            <span class="city-name">Istanbul Airport</span>
+            <span class="city-sub">IST · Istanbul, Turkey</span>
+            <span class="city-count">👤 76M+ Passengers/Year</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div style="width:100%;height:100px;background:linear-gradient(135deg,#dc2626,#f97316);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:rgba(255,255,255,.35)">✈</div>
+          <div class="city-overlay"></div>
+          <div class="city-info">
+            <span class="city-name">Los Angeles Intl.</span>
+            <span class="city-sub">LAX · Los Angeles, USA</span>
+            <span class="city-count">👤 75M+ Passengers/Year</span>
+          </div>
+        </div>
+        <div class="city-card">
+          <div style="width:100%;height:100px;background:linear-gradient(135deg,#064e3b,#10b981);display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:rgba(255,255,255,.35)">✈</div>
+          <div class="city-overlay"></div>
+          <div class="city-info">
+            <span class="city-name">Hong Kong Intl.</span>
+            <span class="city-sub">HKG · Hong Kong</span>
+            <span class="city-count">👤 60M+ Passengers/Year</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Don't see your airport CTA -->
+    <div style="background:var(--navy);color:#fff;border-radius:var(--radius);padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;margin-top:1rem">
+      <div style="display:flex;align-items:center;gap:1rem">
+        <span style="font-size:2rem;opacity:.8">🏗</span>
+        <div>
+          <h3 style="font-size:1rem;font-weight:700;margin-bottom:.25rem">Don't see your airport?</h3>
+          <p style="font-size:.85rem;color:rgba(255,255,255,.7)">We have inventory at over 1,200 airports worldwide.</p>
+        </div>
+      </div>
+      <button class="btn-outline-white">Request Airport Info</button>
+    </div>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo"><span class="gl">GLOBAL</span><span class="ad">ADSLOTS</span></div>
+        <p>The global marketplace for advertising spaces. Book anywhere. Advertise everywhere.</p>
+        <div class="social-icons">
+          <a href="#">in</a><a href="#">𝕏</a><a href="#">f</a><a href="#">📷</a><a href="#">▶</a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Platform</h4><ul><li><a href="/">Find Advertising</a></li><li><a href="/airport-advertising/">Airports</a></li><li><a href="/billboard-advertising/">Billboards</a></li><li><a href="#">Digital Screens</a></li><li><a href="#">Transit</a></li><li><a href="#">Mall Advertising</a></li><li><a href="/deals/">Deals</a></li><li><a href="/ai-media-planner/">AI Media Planner</a></li></ul></div>
+      <div class="footer-col"><h4>For Businesses</h4><ul><li><a href="/for-media-owners/">For Media Owners</a></li><li><a href="/for-agencies/">For Agencies</a></li><li><a href="#">Enterprise Solutions</a></li><li><a href="#">API Access</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="/about/">About Us</a></li><li><a href="#">How It Works</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li><li><a href="#">Newsroom</a></li><li><a href="/contact/">Contact Us</a></li></ul></div>
+      <div class="newsletter-col"><h4>Subscribe to our newsletter</h4><p>Get the best advertising deals and industry insights.</p><div class="newsletter-row"><input type="email" placeholder="Enter your email"><button class="nl-btn">Subscribe</button></div></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container">© 2025 Global AdSlots. All rights reserved.</div></div>
+</footer>
+
+<script src="/assets/app.js"></script>
+</body>
+</html>

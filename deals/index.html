@@ -1,1 +1,469 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Last-Minute Deals | Global AdSlots</title><link rel="stylesheet" href="/assets/styles.css"></head><body><main class="container"><h1>Last Minute Advertising Marketplace</h1><p>Flash discounts on inventory expiring soon. Sort by Ending Soon, Highest Discount, Most Viewed, Newest.</p><section class="search-grid"><select><option>Sort: Ending Soon</option><option>Highest Discount</option><option>Most Viewed</option><option>Newest</option></select></section><section class="section card-grid"><article class="card"><span class="badge">48% OFF</span><h3>Istanbul Airport Arrivals LED</h3><p>Normal Price: $12,500</p><p>Today: <strong>$6,500</strong></p><p>Limited inventory · Expiring soon</p><p class="countdown" data-hours-left="12"></p></article><article class="card"><span class="badge">36% OFF</span><h3>Times Square Digital Wall</h3><p>Normal Price: $18,000</p><p>Today: <strong>$11,500</strong></p><p>Flash deal ending soon</p><p class="countdown" data-hours-left="6"></p></article></section></main><script src="/assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Last Minute Deals — Global AdSlots</title>
+<meta name="description" content="Exclusive discounts on premium advertising spaces. Flash deals on airports, billboards, digital screens and more. Save up to 60%.">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo"><span class="gl">GLOBAL</span><span class="ad">ADSLOTS</span></a>
+    <nav class="main-nav">
+      <a href="/" class="nav-item">Find Advertising <span class="chevron">▾</span></a>
+      <a href="/airport-advertising/" class="nav-item">Airports</a>
+      <a href="/billboard-advertising/" class="nav-item">Billboards</a>
+      <a href="#" class="nav-item">Digital Screens</a>
+      <a href="#" class="nav-item">Transit</a>
+      <a href="#" class="nav-item">Mall Advertising</a>
+      <a href="/deals/" class="nav-item active">Deals</a>
+      <a href="/ai-media-planner/" class="nav-item">AI Media Planner <span class="badge-new">NEW</span></a>
+      <a href="/for-media-owners/" class="nav-item">For Media Owners</a>
+    </nav>
+    <div class="header-actions">
+      <button class="btn-lang">🌐 EN ▾</button>
+      <a href="#" class="btn-signin">Sign In</a>
+      <a href="#" class="btn-signup">Sign Up</a>
+    </div>
+  </div>
+</header>
+
+<!-- DEALS HERO -->
+<section class="deals-hero">
+  <div class="container">
+    <div class="inner">
+      <div>
+        <h1>Last Minute Deals</h1>
+        <p>Exclusive discounts on premium advertising spaces.<br>Book now and reach your audience for less.</p>
+      </div>
+      <div class="deals-badges">
+        <div class="deal-badge">
+          <span class="db-icon">🏷️</span>
+          <div class="db-text"><strong>Best Prices</strong><span>Save up to 60%</span></div>
+        </div>
+        <div class="deal-badge">
+          <span class="db-icon">🛡️</span>
+          <div class="db-text"><strong>Verified Inventory</strong><span>100% quality checked</span></div>
+        </div>
+        <div class="deal-badge">
+          <span class="db-icon">⚡</span>
+          <div class="db-text"><strong>Instant Booking</strong><span>Quick &amp; easy</span></div>
+        </div>
+        <div class="deal-badge">
+          <span class="db-icon">🕐</span>
+          <div class="db-text"><strong>Limited Time</strong><span>Deals end soon</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN BODY -->
+<main class="page-body">
+  <div class="container">
+    <div class="layout-3col">
+
+      <!-- LEFT FILTER SIDEBAR -->
+      <aside class="filter-sidebar">
+        <div class="filter-header">
+          <h3>Filter Deals</h3>
+          <button class="filter-clear">Clear All</button>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Location</div>
+          <div style="position:relative;margin-bottom:.5rem">
+            <span style="position:absolute;left:.6rem;top:50%;transform:translateY(-50%);color:var(--muted);font-size:.85rem">🔍</span>
+            <input class="filter-input" style="padding-left:2rem" placeholder="Country, City or Airport">
+          </div>
+          <select class="filter-select">
+            <option>All Countries</option>
+            <option>Brazil</option>
+            <option>UAE</option>
+            <option>United Kingdom</option>
+            <option>USA</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Ad Type</div>
+          <label class="checkbox-row"><input type="checkbox" checked><label>All Types</label><span class="count">412</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Airport</label><span class="count">104</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Billboard</label><span class="count">162</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Digital Screen</label><span class="count">78</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Transit</label><span class="count">46</span></label>
+          <label class="checkbox-row"><input type="checkbox"><label>Mall</label><span class="count">22</span></label>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Date Availability</div>
+          <div style="position:relative">
+            <span style="position:absolute;left:.6rem;top:50%;transform:translateY(-50%);color:var(--muted);font-size:.85rem">📅</span>
+            <input class="filter-input" style="padding-left:2rem" type="text" placeholder="Select Dates">
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Discount</div>
+          <select class="filter-select">
+            <option>Any Discount</option>
+            <option>20%+ OFF</option>
+            <option>30%+ OFF</option>
+            <option>40%+ OFF</option>
+            <option>50%+ OFF</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Price Range (USD)</div>
+          <div class="range-group">
+            <input type="range" min="0" max="50000" value="50000" data-range="price">
+            <div class="range-inputs">
+              <input type="text" placeholder="$ Min">
+              <input type="text" placeholder="$ Max">
+            </div>
+          </div>
+        </div>
+
+        <button class="filter-apply">Apply Filters</button>
+      </aside>
+
+      <!-- CENTER CONTENT -->
+      <div>
+        <div class="result-header">
+          <span class="result-count">412 Deals Found</span>
+          <div class="result-controls">
+            <label>Sort by:</label>
+            <select class="sort-select">
+              <option>Ending Soonest</option>
+              <option>Highest Discount</option>
+              <option>Most Viewed</option>
+              <option>Newest</option>
+            </select>
+            <div class="view-btns">
+              <button class="active" title="Grid view">⊞</button>
+              <button title="List view">☰</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal card 1 -->
+        <div class="listing-card">
+          <div class="card-img">
+            <div style="width:160px;height:130px;background:linear-gradient(135deg,#1e3a5f,#2d6a9f);display:flex;align-items:center;justify-content:center;font-size:2rem;color:rgba(255,255,255,.3)">✈</div>
+            <span class="type-badge tb-airport">Airport</span>
+            <span class="disc-badge">-48%</span>
+            <button class="fav-btn">♡</button>
+          </div>
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Guarulhos Airport – Terminal 3</h3>
+              <div class="loc">São Paulo, Brazil</div>
+              <div class="card-meta-row">
+                <div class="m-item"><span class="mi">✈</span> International Departures</div>
+                <div class="m-item"><span class="mi">👤</span> 18M+ Passengers/Year</div>
+                <div class="m-item"><span class="mi">🖥</span> Digital Screen – 15s Loop</div>
+              </div>
+            </div>
+            <div class="card-avail">
+              <div class="avail-label">Available</div>
+              <div class="dates">May 20 – Jun 10, 2025</div>
+              <div class="days">(22 Days)</div>
+              <div class="card-size-label mt-2" style="margin-top:.5rem">Size</div>
+              <div style="font-weight:600;font-size:.85rem">20ft x 10ft</div>
+            </div>
+            <div class="card-pricing">
+              <div>
+                <div class="now-label">Now</div>
+                <div class="price-now">$6,500</div>
+                <div class="price-orig">$12,500</div>
+              </div>
+              <button class="book-btn" style="background:#fff1f0;border:1.5px solid #fecaca;border-radius:7px;padding:.3rem .65rem;font-size:.78rem;font-weight:700;color:var(--accent)" data-hours-left="14.5">Ends in …</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal card 2 -->
+        <div class="listing-card">
+          <div class="card-img">
+            <div style="width:160px;height:130px;background:linear-gradient(135deg,#2d1b69,#553c9a);display:flex;align-items:center;justify-content:center;font-size:2rem;color:rgba(255,255,255,.3)">🏙</div>
+            <span class="type-badge tb-billboard">Billboard</span>
+            <span class="disc-badge">-45%</span>
+            <button class="fav-btn">♡</button>
+          </div>
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Avenida Paulista Billboard</h3>
+              <div class="loc">São Paulo, Brazil</div>
+              <div class="card-meta-row">
+                <div class="m-item"><span class="mi">📍</span> High Traffic Area</div>
+                <div class="m-item"><span class="mi">👁</span> 500K+ Daily Impressions</div>
+                <div class="m-item"><span class="mi">🖼</span> Static Billboard – 20ft x 10ft</div>
+              </div>
+            </div>
+            <div class="card-avail">
+              <div class="avail-label">Available</div>
+              <div class="dates">May 18 – Jun 05, 2025</div>
+              <div class="days">(18 Days)</div>
+              <div class="card-size-label mt-2" style="margin-top:.5rem">Size</div>
+              <div style="font-weight:600;font-size:.85rem">20ft x 10ft</div>
+            </div>
+            <div class="card-pricing">
+              <div>
+                <div class="now-label">Now</div>
+                <div class="price-now">$2,900</div>
+                <div class="price-orig">$5,300</div>
+              </div>
+              <button class="book-btn" style="background:#fff1f0;border:1.5px solid #fecaca;border-radius:7px;padding:.3rem .65rem;font-size:.78rem;font-weight:700;color:var(--accent)" data-hours-left="9.25">Ends in …</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal card 3 -->
+        <div class="listing-card">
+          <div class="card-img">
+            <div style="width:160px;height:130px;background:linear-gradient(135deg,#1e3a5f,#0a4a7c);display:flex;align-items:center;justify-content:center;font-size:2rem;color:rgba(255,255,255,.3)">✈</div>
+            <span class="type-badge tb-airport">Airport</span>
+            <span class="disc-badge">-40%</span>
+            <button class="fav-btn">♡</button>
+          </div>
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Dubai International Airport – T1</h3>
+              <div class="loc">Dubai, UAE</div>
+              <div class="card-meta-row">
+                <div class="m-item"><span class="mi">✈</span> International Terminal</div>
+                <div class="m-item"><span class="mi">👤</span> 90M+ Passengers/Year</div>
+                <div class="m-item"><span class="mi">🖥</span> Digital Screen – 10s Loop</div>
+              </div>
+            </div>
+            <div class="card-avail">
+              <div class="avail-label">Available</div>
+              <div class="dates">May 25 – Jun 15, 2025</div>
+              <div class="days">(21 Days)</div>
+              <div class="card-size-label mt-2" style="margin-top:.5rem">Size</div>
+              <div style="font-weight:600;font-size:.85rem">16ft x 9ft</div>
+            </div>
+            <div class="card-pricing">
+              <div>
+                <div class="now-label">Now</div>
+                <div class="price-now">$9,600</div>
+                <div class="price-orig">$16,000</div>
+              </div>
+              <button class="book-btn" style="background:#fff1f0;border:1.5px solid #fecaca;border-radius:7px;padding:.3rem .65rem;font-size:.78rem;font-weight:700;color:var(--accent)" data-hours-left="17.75">Ends in …</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal card 4 -->
+        <div class="listing-card">
+          <div class="card-img">
+            <div style="width:160px;height:130px;background:linear-gradient(135deg,#065f46,#059669);display:flex;align-items:center;justify-content:center;font-size:2rem;color:rgba(255,255,255,.3)">🛍</div>
+            <span class="type-badge tb-mall">Mall</span>
+            <span class="disc-badge">-50%</span>
+            <button class="fav-btn">♡</button>
+          </div>
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Shopping Cidade São Paulo</h3>
+              <div class="loc">São Paulo, Brazil</div>
+              <div class="card-meta-row">
+                <div class="m-item"><span class="mi">📍</span> Premium Shopping Mall</div>
+                <div class="m-item"><span class="mi">👤</span> 850K+ Weekly Visitors</div>
+                <div class="m-item"><span class="mi">🖥</span> Digital Screen – 15s Loop</div>
+              </div>
+            </div>
+            <div class="card-avail">
+              <div class="avail-label">Available</div>
+              <div class="dates">May 19 – Jun 01, 2025</div>
+              <div class="days">(14 Days)</div>
+              <div class="card-size-label mt-2" style="margin-top:.5rem">Size</div>
+              <div style="font-weight:600;font-size:.85rem">15ft x 8ft</div>
+            </div>
+            <div class="card-pricing">
+              <div>
+                <div class="now-label">Now</div>
+                <div class="price-now">$1,750</div>
+                <div class="price-orig">$3,500</div>
+              </div>
+              <button class="book-btn" style="background:#fff1f0;border:1.5px solid #fecaca;border-radius:7px;padding:.3rem .65rem;font-size:.78rem;font-weight:700;color:var(--accent)" data-hours-left="11.33">Ends in …</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deal card 5 -->
+        <div class="listing-card">
+          <div class="card-img">
+            <div style="width:160px;height:130px;background:linear-gradient(135deg,#7c2d12,#c2410c);display:flex;align-items:center;justify-content:center;font-size:2rem;color:rgba(255,255,255,.3)">🚇</div>
+            <span class="type-badge tb-transit">Transit</span>
+            <span class="disc-badge">-50%</span>
+            <button class="fav-btn">♡</button>
+          </div>
+          <div class="card-body">
+            <div class="card-info">
+              <h3>Metro – Line 4 (Yellow)</h3>
+              <div class="loc">São Paulo, Brazil</div>
+              <div class="card-meta-row">
+                <div class="m-item"><span class="mi">📍</span> High Commuter Traffic</div>
+                <div class="m-item"><span class="mi">👤</span> 1.1M+ Daily Riders</div>
+                <div class="m-item"><span class="mi">🖥</span> Digital Screen – 15s Loop</div>
+              </div>
+            </div>
+            <div class="card-avail">
+              <div class="avail-label">Available</div>
+              <div class="dates">May 20 – Jun 09, 2025</div>
+              <div class="days">(20 Days)</div>
+              <div class="card-size-label mt-2" style="margin-top:.5rem">Size</div>
+              <div style="font-weight:600;font-size:.85rem">12ft x 6ft</div>
+            </div>
+            <div class="card-pricing">
+              <div>
+                <div class="now-label">Now</div>
+                <div class="price-now">$2,200</div>
+                <div class="price-orig">$3,800</div>
+              </div>
+              <button class="book-btn" style="background:#fff1f0;border:1.5px solid #fecaca;border-radius:7px;padding:.3rem .65rem;font-size:.78rem;font-weight:700;color:var(--accent)" data-hours-left="7.83">Ends in …</button>
+            </div>
+          </div>
+        </div>
+
+        <button style="width:100%;padding:.85rem;background:#fff;border:1px solid var(--border);border-radius:var(--radius);font-size:.9rem;font-weight:600;color:var(--muted);margin-top:.5rem;display:flex;align-items:center;justify-content:center;gap:.5rem">
+          Load More Deals ▾
+        </button>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <aside class="right-panel">
+        <!-- Deals ending soon -->
+        <div class="panel-card">
+          <div class="panel-card-header">
+            <h3>Deals Ending Soon</h3>
+            <a href="#" class="view-all-link">View All →</a>
+          </div>
+
+          <div class="ending-item">
+            <div class="ending-thumb-badge" style="position:relative;flex-shrink:0">
+              <div style="width:54px;height:42px;border-radius:7px;background:linear-gradient(135deg,#1e3a5f,#2d6a9f);overflow:hidden;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:1.1rem">✈</div>
+              <span class="et-badge tb-airport" style="position:absolute;bottom:1px;left:1px;font-size:.55rem;font-weight:700;padding:.1rem .25rem;border-radius:3px;text-transform:uppercase;color:#fff;background:var(--green)">AIRPORT</span>
+            </div>
+            <div class="ending-info">
+              <div class="ei-name">Heathrow Airport T2</div>
+              <div class="ei-loc">London, UK</div>
+              <div class="ei-dates">May 20 – Jun 05, 2025</div>
+            </div>
+            <div class="ending-timer" data-ends-in="13512">
+              <div class="et-time"><span class="cd-h">03</span>:<span class="cd-m">45</span>:<span class="cd-s">12</span></div>
+              <div class="et-labels"><span>HRS</span><span>MINS</span><span>SECS</span></div>
+            </div>
+          </div>
+
+          <div class="ending-item">
+            <div style="position:relative;flex-shrink:0">
+              <div style="width:54px;height:42px;border-radius:7px;background:linear-gradient(135deg,#1e1b4b,#4338ca);overflow:hidden;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:1.1rem">🏙</div>
+              <span style="position:absolute;bottom:1px;left:1px;font-size:.55rem;font-weight:700;padding:.1rem .25rem;border-radius:3px;text-transform:uppercase;color:#fff;background:var(--purple)">BILLBOARD</span>
+            </div>
+            <div class="ending-info">
+              <div class="ei-name">Times Square Billboard</div>
+              <div class="ei-loc">New York, USA</div>
+              <div class="ei-dates">May 18 – May 28, 2025</div>
+            </div>
+            <div class="ending-timer" data-ends-in="19233">
+              <div class="et-time"><span class="cd-h">05</span>:<span class="cd-m">20</span>:<span class="cd-s">33</span></div>
+              <div class="et-labels"><span>HRS</span><span>MINS</span><span>SECS</span></div>
+            </div>
+          </div>
+
+          <div class="ending-item">
+            <div style="position:relative;flex-shrink:0">
+              <div style="width:54px;height:42px;border-radius:7px;background:linear-gradient(135deg,#1e3a8a,#3b82f6);overflow:hidden;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:1.1rem">🖥</div>
+              <span style="position:absolute;bottom:1px;left:1px;font-size:.55rem;font-weight:700;padding:.1rem .25rem;border-radius:3px;text-transform:uppercase;color:#fff;background:var(--blue)">DIGITAL</span>
+            </div>
+            <div class="ending-info">
+              <div class="ei-name">Westfield London</div>
+              <div class="ei-loc">London, UK</div>
+              <div class="ei-dates">May 19 – Jun 02, 2025</div>
+            </div>
+            <div class="ending-timer" data-ends-in="22244">
+              <div class="et-time"><span class="cd-h">06</span>:<span class="cd-m">10</span>:<span class="cd-s">44</span></div>
+              <div class="et-labels"><span>HRS</span><span>MINS</span><span>SECS</span></div>
+            </div>
+          </div>
+
+          <div class="ending-item">
+            <div style="position:relative;flex-shrink:0">
+              <div style="width:54px;height:42px;border-radius:7px;background:linear-gradient(135deg,#7c2d12,#c2410c);overflow:hidden;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5);font-size:1.1rem">🚇</div>
+              <span style="position:absolute;bottom:1px;left:1px;font-size:.55rem;font-weight:700;padding:.1rem .25rem;border-radius:3px;text-transform:uppercase;color:#fff;background:var(--orange)">TRANSIT</span>
+            </div>
+            <div class="ending-info">
+              <div class="ei-name">London Underground</div>
+              <div class="ei-loc">London, UK</div>
+              <div class="ei-dates">May 20 – Jun 01, 2025</div>
+            </div>
+            <div class="ending-timer" data-ends-in="28518">
+              <div class="et-time"><span class="cd-h">07</span>:<span class="cd-m">55</span>:<span class="cd-s">18</span></div>
+              <div class="et-labels"><span>HRS</span><span>MINS</span><span>SECS</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Never miss a deal -->
+        <div class="panel-card">
+          <h3 style="font-size:.92rem;font-weight:700;margin-bottom:.3rem">Never Miss a Deal</h3>
+          <p style="font-size:.82rem;color:var(--muted);margin-bottom:.6rem">Get exclusive last minute deals delivered to your inbox.</p>
+          <div class="subscribe-row">
+            <input type="email" placeholder="Enter your email">
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+
+        <!-- List inventory -->
+        <div class="list-panel">
+          <div class="list-panel-icon">🏷️</div>
+          <h3>List Your Inventory</h3>
+          <p>Have unsold inventory? List it on Global AdSlots and reach thousands of buyers.</p>
+          <a href="/for-media-owners/" class="list-panel-btn">List Your Space →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<!-- BOTTOM STATS -->
+<section class="bottom-stats">
+  <div class="container">
+    <div class="bs-item"><div class="bs-icon">🏷</div><div><strong>2,500+</strong><span>Active Deals</span></div></div>
+    <div class="bs-item"><div class="bs-icon">🌍</div><div><strong>150+</strong><span>Countries</span></div></div>
+    <div class="bs-item"><div class="bs-icon">📍</div><div><strong>25,000+</strong><span>Advertising Locations</span></div></div>
+    <div class="bs-item"><div class="bs-icon">💰</div><div><strong>Up to 60% OFF</strong><span>Limited Time Savings</span></div></div>
+    <div class="bs-item"><div class="bs-icon">✅</div><div><strong>100% Verified</strong><span>Quality &amp; Transparency</span></div></div>
+    <div class="bs-item"><div class="bs-icon">⚡</div><div><strong>Instant Booking</strong><span>Book in Minutes</span></div></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo"><span class="gl">GLOBAL</span><span class="ad">ADSLOTS</span></div>
+        <p>The global marketplace for advertising spaces. Book anywhere. Advertise everywhere.</p>
+        <div class="social-icons">
+          <a href="#">in</a><a href="#">𝕏</a><a href="#">f</a><a href="#">📷</a><a href="#">▶</a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Platform</h4><ul><li><a href="/">Find Advertising</a></li><li><a href="/airport-advertising/">Airports</a></li><li><a href="/billboard-advertising/">Billboards</a></li><li><a href="#">Digital Screens</a></li><li><a href="#">Transit</a></li><li><a href="#">Mall Advertising</a></li><li><a href="/deals/">Deals</a></li><li><a href="/ai-media-planner/">AI Media Planner</a></li></ul></div>
+      <div class="footer-col"><h4>For Businesses</h4><ul><li><a href="/for-media-owners/">For Media Owners</a></li><li><a href="/for-agencies/">For Agencies</a></li><li><a href="#">Enterprise Solutions</a></li><li><a href="#">API Access</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="/about/">About Us</a></li><li><a href="#">How It Works</a></li><li><a href="#">Careers</a></li><li><a href="#">Blog</a></li><li><a href="#">Newsroom</a></li><li><a href="/contact/">Contact Us</a></li></ul></div>
+      <div class="footer-col"><h4>Support</h4><ul><li><a href="#">Help Center</a></li><li><a href="#">Advertising Guide</a></li><li><a href="/terms/">Terms of Service</a></li><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="#">Cookie Policy</a></li></ul></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container">© 2025 Global AdSlots. All rights reserved.</div></div>
+</footer>
+
+<script src="/assets/app.js"></script>
+</body>
+</html>
